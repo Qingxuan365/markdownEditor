@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-window",
+  "description": "主编辑窗口的最小权限集合",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-scale-factor",
+    "core:window:allow-set-size",
+    "dialog:default"
+  ]
+}
